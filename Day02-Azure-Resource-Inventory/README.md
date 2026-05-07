@@ -29,15 +29,17 @@ $resources | Export-Csv -Path AzureInventory.csv -NoTypeInformation
 | **step3-filtered-table.png** | Filtered results |
 | **step5-script-output.png** | Script execution |
 
-📸 Screenshots
-🖼️ Inventory Table
+## 📸 Screenshots
+
+### 🖼️ Inventory Table (Step 2)
 ![Step 2 – Inventory Table](./step2-inventory-table.png)
 
-🖼️ Filtered View
+### 🖼️ Filtered Resource View (Step 3)
 ![Step 3 – Filtered Table](./step3-filtered-table.png)
 
-🖼️ Script Execution
+### 🖼️ Script Execution Output (Step 5)
 ![Step 5 – Script Output](./step5-script-output.png)
+
 
 🧩 What This Shows
 Ability to automate Azure tasks
