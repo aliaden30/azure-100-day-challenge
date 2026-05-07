@@ -79,13 +79,16 @@ Step 3 — Filtered View
 Step 5 — Script Execution
 ![Step 5 – Script Output](./step5-script-output.png)
 
-📁 Output Files in This Folder
-File	Description
-AzureInventory.ps1	PowerShell script used to collect the inventory
-AzureInventory.csv	Exported list of Azure resources
-step2-inventory-table.png	Screenshot of full inventory
-step3-filtered-table.png	Screenshot of filtered results
-step5-script-output.png	Screenshot of script execution
+## 📁 Output Files in This Folder
+
+| File | Preview | Description |
+|------|---------|-------------|
+| **AzureInventory.ps1** | — | PowerShell script used to collect the Azure resource inventory |
+| **AzureInventory.csv** | — | Exported list of Azure resources |
+| **step2-inventory-table.png** | ![Step 2](./step2-inventory-table.png) | Full inventory table output |
+| **step3-filtered-table.png** | ![Step 3](./step3-filtered-table.png) | Filtered resource view |
+| **step5-script-output.png** | ![Step 5](./step5-script-output.png) | Script execution screenshot |
+
 
 
 🧩 Real‑World Relevance
