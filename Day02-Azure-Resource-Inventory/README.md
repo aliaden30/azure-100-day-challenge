@@ -1,5 +1,5 @@
 Day 2 — Azure Resource Inventory
-🔍 What I Did
+What I Did
 Automated an Azure Resource Inventory using PowerShell + Azure Resource Graph to list all resources across the subscription.
 
 This is a real cloud engineering task used for:
