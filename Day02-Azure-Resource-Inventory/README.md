@@ -40,7 +40,6 @@ $resources | Export-Csv -Path AzureInventory.csv -NoTypeInformation
 ### 🖼️ Script Execution Output (Step 5)
 ![Step 5 – Script Output](./step5-script-output.png)
 
-
 🧩 What This Shows
 Ability to automate Azure tasks
 
