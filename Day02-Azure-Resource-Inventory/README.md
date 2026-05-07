@@ -71,13 +71,13 @@ This is a clean, efficient, and production‑friendly approach.
 
 📊 Inventory Output (Screenshots)
 Step 2 — Full Inventory Table
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+![Step 2 – Inventory Table](./step2-inventory-table.png)
 
 Step 3 — Filtered View
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+![Step 3 – Filtered Table](./step3-filtered-table.png)
 
 Step 5 — Script Execution
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+![Step 5 – Script Output](./step5-script-output.png)
 
 📁 Output Files in This Folder
 File	Description
