@@ -47,17 +47,16 @@ Implement standardized Azure resource tagging to improve governance, organizatio
 > Screenshots were sanitized to remove personal and tenant-specific information before publication.
 
 ### Step 3 — Resource List
-![Resource List](images/resource-list.png)
+![Step 3](screenshots/step3-all-resources.png)
 
 ### Step 4 — Untagged Resources Audit
-![Untagged Resources Audit](images/untagged-audit.png)
+![Step 4](screenshots/step4-untagged-audit.png)
 
 ### Step 5 — Tag Applied Successfully
-![Tag Applied Successfully](images/tag-applied.png)
+![Step 5](screenshots/step5-tagged-resource.png)
 
 ### Step 6 — Validation
-![Validation](images/validation.png)
-
+![Step 6](screenshots/step6-validation.png)
 ---
 
 ## Validation
