@@ -6,25 +6,25 @@ Step 3 – List All Resources With Tags Column
 powershell
 Get-AzResource | Select-Object Name, ResourceType, Tags
 Screenshot:  
-/screenshots/step3-resource-list.png
+![Step 3](screenshots/step3-all-resources.png)
 
 Step 4 – Identify Untagged Resources
 powershell
 Get-AzResource | Where-Object { -not $_.Tags } | Select-Object Name, ResourceType
 Screenshot:  
-/screenshots/step4-untagged-resources.png
+![Step 4](screenshots/step4-untagged-audit.png)
 
 Step 5 – Apply Tags to a Resource
 powershell
 Set-AzResource -ResourceId (Get-AzResource -Name "nsg-demo-ali" -ResourceGroupName "rg-testquery").ResourceId -Tag @{ Owner='Ali'; Environment='Lab' } -Force
 Screenshot:  
-/screenshots/step5-tag-applied.png
+![Step 5](screenshots/step5-tagged-resource.png)
 
 Step 6 – Validate the Tags
 powershell
 Get-AzResource -Name "nsg-demo-ali" -ResourceGroupName "rg-testquery" | Select-Object Name, Tags
 Screenshot:  
-/screenshots/step6-tag-validation.png
+![Step 6](screenshots/step6-validation.png)
 
 My Notes
 What I did
