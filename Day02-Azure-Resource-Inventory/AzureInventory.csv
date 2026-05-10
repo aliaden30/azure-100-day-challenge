@@ -1,0 +1,7 @@
+"Name","ResourceType","Location","ResourceGroupName"
+"kv-ali-demo","Microsoft.KeyVault/vaults","ukwest","rg-rbac-practice"
+"stquerydemo123","Microsoft.Storage/storageAccounts","eastus","rg-testquery"
+"kv-demo-ali","Microsoft.KeyVault/vaults","eastus","rg-testquery"
+"vnet-demo-ali","Microsoft.Network/virtualNetworks","eastus","rg-testquery"
+"NetworkWatcher_eastus","Microsoft.Network/networkWatchers","eastus","NetworkWatcherRG"
+"nsg-demo-ali","Microsoft.Network/networkSecurityGroups","eastus","rg-testquery"
