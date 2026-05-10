@@ -82,6 +82,7 @@ This teaches the principle of **least privilege**, one of the most important sec
 # No PowerShell commands were required for this challenge.
 # All steps were completed through the Azure Portal UI.
 
+
 ## 🎓 What I Learned
 - How RBAC controls access in Azure  
 - The difference between roles, scopes, and principals  
