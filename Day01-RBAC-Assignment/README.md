@@ -28,19 +28,16 @@ This teaches the principle of **least privilege**, one of the most important sec
 ## 📸 Screenshots
 
 ### 1. Resource Group Created  
-`./screenshots/01-rg-created.png`
+./screenshots/01-rg-created.png
 
 ### 2. Resource Group Overview  
-`./screenshots/02-rg-overview.png`
+./screenshots/02-rg-overview.png
 
 ### 3. IAM Role Assignment  
-`./screenshots/03-iam-role-assignment.png`
+./screenshots/03-iam-role-assignment.png
 
 ### 4. Test User Permission Error  
-`./screenshots/04-permission-error.png`
-
-### 5. Final IAM Validation  
-`./screenshots/05-final-iam-validation.png`
+./screenshots/04-permission-error.png
 
 ---
 
