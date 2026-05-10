@@ -103,7 +103,7 @@ vm1 Microsoft.Compute/virtualMachines   uksouth
 vnet1   Microsoft.Network/virtualNetworks   uksouth
 storage123  Microsoft.Storage/storageAccounts   uksouth
 
-(This is a simplified example for readability.)
+
 
 🎓 What I Learned
 PowerShell works with objects, making filtering and exporting easy
