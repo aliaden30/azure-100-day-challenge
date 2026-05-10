@@ -93,16 +93,16 @@ Azure Subscription
 > Screenshots were sanitised to remove personal and tenant-specific information before publication.
 
 ### Step 2 — Inventory Table Output
-![Inventory Table Output](images/inventory-output.png)
+![Step 2](./screenshots/step2-inventory-table.png)
 
 ### Step 3 — Filtered Resource View
-![Filtered Resource View](images/filtered-view.png)
+![Step 3](./screenshots/step3-filtered-table.png)
 
 ### Step 5 — Script Execution Output
-![Script Execution Output](images/script-output.png)
+![Step 5](./screenshots/step5-script-output.png)
 
 ### Step 6 — CSV Export Preview
-![CSV Export Preview](images/csv-preview.png)
+![Step 6](./screenshots/step6-csv-preview.png)
 
 ---
 
