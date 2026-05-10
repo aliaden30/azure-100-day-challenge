@@ -61,8 +61,11 @@ Below are the 5 most important ones.
 
 ## 📜 Commands Used
 
-### **PowerShell**
 ```powershell
+# -------------------------
+# PowerShell Commands
+# -------------------------
+
 Get-AzResourceGroup
 (Get-AzResourceGroup).Count
 
@@ -80,9 +83,11 @@ ls -la
 
 az resource list --output json | ConvertFrom-Json
 
-## 🖥️ Azure CLI
 
-```bash
+# -------------------------
+# Azure CLI Commands
+# -------------------------
+
 az group list --output table
 
 az group list \
@@ -90,6 +95,7 @@ az group list \
   --output table
 
 az resource list
+
 
 🧩 Sample Output (Excerpt)
 Name    ResourceType    Location
