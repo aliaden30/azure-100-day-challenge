@@ -28,51 +28,52 @@ This teaches the principle of **least privilege**, one of the most important sec
 ## 📸 Screenshots
 
 ### 1. Resource Group Created  
-./screenshots/01-rg-created.png
+![Resource Group Created](./screenshots/01-rg-created.png)
 
 ### 2. Resource Group Overview  
-./screenshots/02-rg-overview.png
+![Resource Group Overview](./screenshots/02-rg-overview.png)
 
 ### 3. IAM Role Assignment  
-./screenshots/03-iam-role-assignment.png
+![IAM Role Assignment](./screenshots/03-iam-role-assignment.png)
 
 ### 4. Test User Permission Error  
-./screenshots/04-permission-error.png
+![Permission Error](./screenshots/04-permission-error.png)
+
 
 ---
 
 ## 📝 Steps Performed
 
-### **1️⃣ Create the Resource Group**
+### 1️⃣ Created the Resource Group
 - Azure Portal → Resource groups → Create  
 - Name: **rg-rbac-practice**  
 - Region: **UK West**  
-- Create  
+- Created successfully  
 
-### **2️⃣ Create the Test User**
+### 2️⃣ Created the Test User
 - Microsoft Entra ID → Users → New user  
 - Username: `testrbacuser@yourdomain.onmicrosoft.com`  
 - Name: **Test RBAC User**  
-- Copy the temporary password  
+- Temporary password copied  
 
-### **3️⃣ Assign the Reader Role**
-- Open **rg-rbac-practice**  
-- Access control (IAM) → Add → Add role assignment  
-- Select **Reader** → Next  
-- Select **Test RBAC User** → Review + assign  
+### 3️⃣ Assigned the Reader Role
+- Opened **rg-rbac-practice**  
+- Access control (IAM) → Add role assignment  
+- Selected **Reader**  
+- Assigned to **Test RBAC User**  
 
-### **4️⃣ Validate Permissions**
-- Open Incognito window  
-- Sign in as the test user  
-- Try to delete or create a resource  
-- Expected: **AuthorizationFailed**  
+### 4️⃣ Validated Permissions
+- Logged in via Incognito as the test user  
+- Attempted to create/delete resources  
+- Received **AuthorizationFailed** (expected)  
 
-### **5️⃣ Final Verification**
-- Back in your main account  
+### 5️⃣ Verified IAM Assignments
+- Returned to main account  
 - IAM → Role assignments  
-- Confirm:
+- Confirmed:
   - Owner — you  
   - Reader — Test RBAC User  
+
 
 ---
 
