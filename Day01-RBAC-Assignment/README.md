@@ -79,18 +79,18 @@ This teaches the principle of **least privilege**, one of the most important sec
 
 ---
 
-## 📜 Commands Used
+## 📜 Commands Used 
 ```powershell
 # No PowerShell commands were required for this challenge.
 # All steps were completed through the Azure Portal UI.
 
-## 🎓 What I Learned
+## **🎓 What I Learned**
 - How RBAC controls access in Azure  
 - The difference between roles, scopes, and principals  
 - Why the Reader role is safe for audit-only access  
 - How to assign roles at the resource group scope  
 - How to validate least-privilege access using a test user  
 
-## 🔑 Key Takeaway
+## **🔑 Key Takeaway**
 Least privilege is the backbone of cloud security — give only what is needed, nothing more.
 
